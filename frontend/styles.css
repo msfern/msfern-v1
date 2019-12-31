@@ -59,7 +59,7 @@ header {
 }
 
 header h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding: 0 0 1rem;
     margin: 0;
     color: var(--blue);
@@ -75,13 +75,43 @@ header nav ul li:not(:first-child) {
     padding: 0 0 0 20px;
 }
 
-header nav ul li a{
+header nav ul li a {
     text-decoration: none;
     font-weight: bold;
+    color: var(--textNormal);
+    letter-spacing: 1px;
+    position: relative;
 }
 
-header nav ul li a:visited{
+header nav ul li a.active {
+    /*todo*/
+}
+
+header nav ul li a:visited {
     color: var(--textNormal);
+}
+
+header nav ul li a:not(.wip):hover {
+    color: #A1ACB3;
+}
+
+header nav ul li a:not(.wip):after{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #007bff;
+    content: '';
+    height: 2px;
+    border-radius: 3px;
+    opacity: 0;
+    transform: translateY(0);
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+header nav ul li a:not(.wip):hover:after{
+    opacity: 1;
+    transform: translateY(3px);
 }
 
 main {
@@ -92,7 +122,7 @@ main .main-photo img {
     width: 150px;
     border-radius: 50%;
     filter: grayscale(1);
-    margin: 0 15px 0 0;
+    margin: 0 2rem 0 0;
 }
 
 main .main-description h2 {
