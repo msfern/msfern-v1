@@ -1,0 +1,120 @@
+:root {
+    --textNormal: #ffffffe0;
+    --red: #e74c3c;
+    --blue: #007bff;
+    --padding: 20px;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro.eot');
+    src: local('Apercu Pro'), local('ApercuPro'),
+        url('font/ApercuPro.eot?#iefix') format('embedded-opentype'),
+        url('font/ApercuPro.woff2') format('woff2'),
+        url('font/ApercuPro.woff') format('woff'),
+        url('font/ApercuPro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Medium.eot');
+    src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
+        url('font/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/ApercuPro-Medium.woff2') format('woff2'),
+        url('font/ApercuPro-Medium.woff') format('woff'),
+        url('font/ApercuPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Bold.eot');
+    src: local('Apercu Pro Bold'), local('ApercuPro-Bold'),
+        url('font/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/ApercuPro-Bold.woff2') format('woff2'),
+        url('font/ApercuPro-Bold.woff') format('woff'),
+        url('font/ApercuPro-Bold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 750px;
+    margin: auto;
+    padding: 1rem;
+    background-color: #171c28;
+    color: var(--textNormal);
+    font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-size: 4rem;
+    padding: 0 0 1rem;
+    margin: 0;
+    color: var(--blue);
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li:not(:first-child) {
+    padding: 0 0 0 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:visited{
+    color: var(--textNormal);
+}
+
+main {
+    display: flex;
+}
+
+main .main-photo img {
+    width: 150px;
+    border-radius: 50%;
+    filter: grayscale(1);
+    margin: 0 15px 0 0;
+}
+
+main .main-description h2 {
+    font-size: 2.25rem;
+    margin: 0;
+}
+
+main .main-description p {
+    font-size: 1.15rem;
+    line-height: 1.45em;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
+footer p i {
+    width: 18px;
+    height: 100%;
+}
+
+footer p i.red {
+    color: var(--red);
+}
