@@ -41,17 +41,19 @@
     font-style: normal;
 }
 
-html {
+html,body {
     height: 100%;
 }
 
 body {
     max-width: 750px;
     margin: auto;
-    padding: 1rem;
+    padding: 0 1rem;
     background-color: #171c28;
     color: var(--textNormal);
     font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -133,6 +135,10 @@ main .main-description h2 {
 main .main-description p {
     font-size: 1.15rem;
     line-height: 1.45em;
+}
+
+footer {
+    margin: auto 0 1.45rem;
 }
 
 footer p {
