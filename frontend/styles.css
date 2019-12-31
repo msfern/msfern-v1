@@ -57,14 +57,14 @@ body {
 }
 
 header {
-    padding: 3rem 0;
+    padding: 4rem 0;
 }
 
 header h1 {
     font-size: 4.5rem;
-    padding: 0 0 1rem;
+    padding: 1rem 0;
     margin: 0;
-    color: var(--blue);
+    /* color: var(--blue); */
 }
 header nav ul {
     display: flex;
@@ -85,9 +85,8 @@ header nav ul li a {
     position: relative;
 }
 
-header nav ul li a.active {
-    /*todo*/
-}
+/* header nav ul li a.active {
+} */
 
 header nav ul li a:visited {
     color: var(--textNormal);
@@ -116,34 +115,48 @@ header nav ul li a:not(.wip):hover:after{
     transform: translateY(3px);
 }
 
-main {
+.intro {
     display: flex;
+    align-items: center;
 }
 
-main .main-photo img {
+.intro .intro-photo img {
     width: 150px;
     border-radius: 50%;
     filter: grayscale(1);
     margin: 0 2rem 0 0;
 }
 
-main .main-description h2 {
-    font-size: 2.25rem;
+
+.intro .intro-description p {
+    font-size: 1.15rem;
+    line-height: 1.45em;
     margin: 0;
 }
 
-main .main-description p {
-    font-size: 1.15rem;
-    line-height: 1.45em;
+section h2 {
+font-size: 2.25rem;
+    margin: 0 0 1rem;
+}
+
+section:not(:first-of-type ) {
+    border-top: 2px var(--blue) solid;
+    margin-top: 5rem;
+}
+
+section:not(:first-of-type) h2 {
+    margin: 2.5rem 0;
 }
 
 footer {
-    margin: auto 0 1.45rem;
+    /* margin: auto 0 1.45rem; */
+    margin: 2rem 0;
 }
 
 footer p {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 footer p i {
@@ -153,4 +166,18 @@ footer p i {
 
 footer p i.red {
     color: var(--red);
+}
+
+.language__row {
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+}
+
+.language__row:not(:first-child) {
+    border-top: 1px #353535 solid;
+}
+
+.language__row p {
+    flex: 1;
 }
