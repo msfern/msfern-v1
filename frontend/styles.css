@@ -56,6 +56,10 @@
     font-style: normal;
 }
 
+html {
+    width: 100%;
+}
+
 html,body {
     height: 100%;
 }
@@ -63,7 +67,7 @@ html,body {
 body {
     max-width: 750px;
     margin: auto;
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: var(--backgroundWhite);
     color: var(--textNormalDark);
     font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
@@ -81,25 +85,25 @@ ul {
     margin: 0;
 }
 
-header {
+.header {
     padding: 4rem 0 0;
 }
 
-header h1 {
+.header h1 {
     font-size: 4.5rem;
     padding: 1rem 0;
     margin: 0;
     /* color: var(--blue); */
 }
-header nav ul {
+.header nav ul {
     display: flex;
 }
 
-header nav ul li:not(:first-child) {
+.header nav ul li:not(:first-child) {
     padding: 0 0 0 20px;
 }
 
-header nav ul li a {
+.header nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: var(--textNormal);
@@ -107,18 +111,18 @@ header nav ul li a {
     position: relative;
 }
 
-/* header nav ul li a.active {
+/* .header nav ul li a.active {
 } */
 
-header nav ul li a:visited {
+.header nav ul li a:visited {
     color: var(--textNormal);
 }
 
-header nav ul li a:not(.wip):hover {
+.header nav ul li a:not(.wip):hover {
     color: #A1ACB3;
 }
 
-header nav ul li a:not(.wip):after{
+.header nav ul li a:not(.wip):after{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -132,7 +136,7 @@ header nav ul li a:not(.wip):after{
     transition: transform .2s ease-in-out, opacity .2s ease-in-out;
 }
 
-header nav ul li a:not(.wip):hover:after{
+.header nav ul li a:not(.wip):hover:after{
     opacity: 1;
     transform: translateY(3px);
 }
@@ -188,6 +192,7 @@ header nav ul li a:not(.wip):hover:after{
     justify-content: center;
     margin: 0;
     font-weight: bold;
+    color: rgba(0,0,0,0.45);
 }
 
 .footer p i {
@@ -273,4 +278,53 @@ header nav ul li a:not(.wip):hover:after{
 #scrollToTopBtn.show {
     opacity: 1;
     visibility: visible;
+}
+
+@media screen and (max-width: 360px) {
+    .header {
+        padding: 0;
+    }
+
+    .header h1 {
+        font-size: 3.5rem;
+    }
+
+    .skills .skills__container {
+        flex-direction: column;
+    }
+
+    .intro {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .intro .intro-photo img {
+        margin: 0;
+    }
+
+    .skills .skills__category {
+        margin-bottom: 25px;
+    }
+
+    .job, .university {
+        flex-direction: column;
+    }
+
+    .job .job__company-time, .university .university__name-time {
+        flex-direction: column;
+        align-items: unset;
+        justify-content: unset;
+    }
+
+    .section {
+        padding: 3rem 0;
+    }
+
+    .footer p {
+        font-size: .9rem;
+        width: 200px;
+        line-break: auto;
+        flex-wrap: wrap;
+        margin: auto;
+    }
 }
