@@ -37,7 +37,19 @@
         url('font/ApercuPro-Bold.woff2') format('woff2'),
         url('font/ApercuPro-Bold.woff') format('woff'),
         url('font/ApercuPro-Bold.ttf') format('truetype');
-    font-weight: 500;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Mono.eot');
+    src: local('Apercu Pro Mono'), local('ApercuPro-Mono'),
+        url('font/ApercuPro-Mono.eot?#iefix') format('embedded-opentype'),
+        url('font/ApercuPro-Mono.woff2') format('woff2'),
+        url('font/ApercuPro-Mono.woff') format('woff'),
+        url('font/ApercuPro-Mono.ttf') format('truetype');
+    font-weight: 200;
     font-style: normal;
 }
 
@@ -54,6 +66,10 @@ body {
     font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+p {
+    line-height: 1.45em;
 }
 
 header {
@@ -130,12 +146,11 @@ header nav ul li a:not(.wip):hover:after{
 
 .intro .intro-description p {
     font-size: 1.15rem;
-    line-height: 1.45em;
     margin: 0;
 }
 
 section h2 {
-font-size: 2.25rem;
+    font-size: 2.5rem;
     margin: 0 0 1rem;
 }
 
@@ -157,6 +172,7 @@ footer p {
     display: flex;
     justify-content: center;
     margin: 0;
+    font-weight: bold;
 }
 
 footer p i {
@@ -180,4 +196,32 @@ footer p i.red {
 
 .language__row p {
     flex: 1;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job .job__company-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job .job__company {
+    font-weight: bold;
+}
+
+.job .job__time {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: .9rem;
+}
+
+.job .job__location {
+    opacity: .5;
+}
+
+.job p {
+    margin: 0;
 }
