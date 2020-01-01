@@ -73,7 +73,7 @@ p {
 }
 
 header {
-    padding: 4rem 0;
+    padding: 4rem 0 0;
 }
 
 header h1 {
@@ -149,18 +149,17 @@ header nav ul li a:not(.wip):hover:after{
     margin: 0;
 }
 
-section h2 {
+.section {
+    padding: 5rem 0;
+}
+
+.section h2 {
     font-size: 2.5rem;
-    margin: 0 0 1rem;
+    margin: 0 0 2.5rem;
 }
 
-section:not(:first-of-type ) {
+.section:not(:first-of-type ) {
     border-top: 2px var(--blue) solid;
-    margin-top: 5rem;
-}
-
-section:not(:first-of-type) h2 {
-    margin: 2.5rem 0;
 }
 
 footer {
