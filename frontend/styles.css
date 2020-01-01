@@ -198,30 +198,30 @@ footer p i.red {
     flex: 1;
 }
 
-.job {
+.job, .university {
     margin-bottom: 25px;
 }
 
-.job .job__company-time {
+.job .job__company-time, .university .university__name-time {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.job .job__company {
+.job .job__company, .university .university__name {
     font-weight: bold;
 }
 
-.job .job__time {
+.job .job__time, .university .university__time {
     text-transform: uppercase;
     font-weight: 200;
     font-size: .9rem;
 }
 
-.job .job__location {
+.job .job__location, .university .university__location {
     opacity: .5;
 }
 
-.job p {
+.job p, .university p {
     margin: 0;
 }
