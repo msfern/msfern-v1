@@ -61,8 +61,8 @@ body {
     max-width: 750px;
     margin: auto;
     padding: 0 1rem;
-    background-color: #171c28;
-    color: var(--textNormal);
+    background-color: var(--backgroundWhite);
+    color: var(--textNormalDark);
     font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
