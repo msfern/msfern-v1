@@ -1,5 +1,8 @@
 :root {
-    --textNormal: #ffffffe0;
+    --textNormalWhite: #ffffffe0;
+    --textNormalDark: #444452;
+    --backgroundWhite: #fff;
+    --backgroundDark: ##171c28;
     --red: #e74c3c;
     --blue: #007bff;
     --padding: 20px;
@@ -72,6 +75,12 @@ p {
     line-height: 1.45em;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     padding: 4rem 0 0;
 }
@@ -84,9 +93,6 @@ header h1 {
 }
 header nav ul {
     display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 header nav ul li:not(:first-child) {
@@ -190,7 +196,7 @@ footer p i.red {
 }
 
 .language__row:not(:first-child) {
-    border-top: 1px #353535 solid;
+    border-top: 1px #ccc solid;
 }
 
 .language__row p {
@@ -218,9 +224,25 @@ footer p i.red {
 }
 
 .job .job__location, .university .university__location {
-    opacity: .5;
+    opacity: .7;
 }
 
 .job p, .university p {
     margin: 0;
+}
+
+.skills .skill__label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.skills .skills__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills .skill {
+    margin: 3px 0;
+    line-height: 1.5;
 }
