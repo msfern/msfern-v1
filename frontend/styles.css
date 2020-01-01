@@ -168,24 +168,34 @@ header nav ul li a:not(.wip):hover:after{
     border-top: 2px var(--blue) solid;
 }
 
-footer {
+.footer {
     /* margin: auto 0 1.45rem; */
     margin: 2rem 0;
 }
 
-footer p {
+.footer svg {
+    width: 1rem;
+    height: auto;
+    margin: 0 5px;
+}
+
+.footer svg.heart {
+    color: var(--red);
+}
+
+.footer p {
     display: flex;
     justify-content: center;
     margin: 0;
     font-weight: bold;
 }
 
-footer p i {
+.footer p i {
     width: 18px;
     height: 100%;
 }
 
-footer p i.red {
+.footer p i.red {
     color: var(--red);
 }
 
@@ -253,6 +263,7 @@ footer p i.red {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    width: 20px;
 }
 
 #scrollToTopBtn:hover {
