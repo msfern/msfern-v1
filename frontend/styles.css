@@ -246,3 +246,20 @@ footer p i.red {
     margin: 3px 0;
     line-height: 1.5;
 }
+
+#scrollToTopBtn {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#scrollToTopBtn:hover {
+    cursor: pointer;
+}
+
+#scrollToTopBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
