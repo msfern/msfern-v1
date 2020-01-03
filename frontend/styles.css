@@ -1,6 +1,7 @@
 :root {
     --textNormalWhite: #ffffffe0;
     --textNormalDark: #444452;
+    --textNormalGray: #969696;
     --backgroundWhite: #fff;
     --backgroundDark: ##171c28;
     --red: #e74c3c;
@@ -107,7 +108,7 @@ ul {
 .header nav ul li a {
     text-decoration: none;
     font-weight: bold;
-    color: var(--textNormal);
+    color: var(--textNormalGray);
     letter-spacing: 1px;
     position: relative;
 }
@@ -116,7 +117,7 @@ ul {
 } */
 
 .header nav ul li a:visited {
-    color: var(--textNormal);
+    color: var(--textNormalGray);
 }
 
 .header nav ul li a:not(.wip):hover {
