@@ -1,0 +1,81 @@
+.header {
+  padding: 3rem 0 0;
+}
+
+.header .header-top {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-top h1 {
+  font-size: 3.5rem;
+  padding: 1rem 0;
+  margin: 0 auto 0 0;
+}
+
+.header .header-bottom ul li button {
+  -webkit-appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 0;
+  font-weight: 500;
+  color: var(--textNormalDark);
+  letter-spacing: 1px;
+  position: relative;
+  padding: 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color .2s linear;
+}
+
+.header .header-bottom ul li button:hover {
+  color: var(--blue);
+}
+
+.header .header-bottom ul li button:focus {
+  outline: none;
+}
+
+.header .header-bottom ul li button.active {
+  color: var(--blue);
+  font-weight: 600;
+}
+
+.header .header-bottom {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-bottom ul {
+  display: flex;
+  align-items: center;
+}
+
+.header .header-bottom .social-links {
+  margin-left: auto;
+}
+
+.header .header-bottom .social-links .social {
+  color: var(--textNormalDark);
+  font-size: 1.5rem;
+}
+
+.header .header-bottom .social-links .social:hover {
+  color: var(--blue)
+}
+
+.header .header-bottom ul li:not(:first-child) {
+  padding: 0 0 0 20px;
+}
+
+@media screen and (max-width: 570px) {
+  .header .header-bottom .social-links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .header {
+      padding: 0;
+  }
+}

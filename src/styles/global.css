@@ -1,0 +1,95 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css');
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('./font/ApercuPro.eot');
+  src: local('Apercu Pro'), local('ApercuPro'),
+      url('./font/ApercuPro.eot?#iefix') format('embedded-opentype'),
+      url('./font/ApercuPro.woff2') format('woff2'),
+      url('./font/ApercuPro.woff') format('woff'),
+      url('./font/ApercuPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('./font/ApercuPro-Medium.eot');
+  src: local('Apercu Pro Medium'), local('ApercuPro-Medium'),
+      url('./font/ApercuPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./font/ApercuPro-Medium.woff2') format('woff2'),
+      url('./font/ApercuPro-Medium.woff') format('woff'),
+      url('./font/ApercuPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('./font/ApercuPro-Bold.eot');
+  src: local('Apercu Pro Bold'), local('ApercuPro-Bold'),
+      url('./font/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./font/ApercuPro-Bold.woff2') format('woff2'),
+      url('./font/ApercuPro-Bold.woff') format('woff'),
+      url('./font/ApercuPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apercu Pro';
+  src: url('./font/ApercuPro-Mono.eot');
+  src: local('Apercu Pro Mono'), local('ApercuPro-Mono'),
+      url('./font/ApercuPro-Mono.eot?#iefix') format('embedded-opentype'),
+      url('./font/ApercuPro-Mono.woff2') format('woff2'),
+      url('./font/ApercuPro-Mono.woff') format('woff'),
+      url('./font/ApercuPro-Mono.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+  --textNormalWhite: #FFF;
+  --textNormalDark: #444452;
+  --textNormalGray: #969696;
+  --backgroundWhite: #FFF;
+  --backgroundDark: #171c28;
+  --red: #E74C3C;
+  --blue: #007BFF;
+  --yellow: #F9DC5C;
+  --padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Apercu Pro', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  max-width: 750px;
+  margin: auto;
+  padding: 0 1rem;
+  background-color: var(--backgroundWhite);
+  color: var(--textNormalDark);
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  line-height: 1.55rem;
+  font-size: 1.15rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+::selection {
+  background-color: var(--yellow);
+}
