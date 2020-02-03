@@ -11,7 +11,6 @@ class Header extends React.Component {
   
   render() {
     const currentLocation = this.props.location.pathname;
-    console.log(currentLocation)
     return (
       <header className='header'>
         <nav className='header-top'>
