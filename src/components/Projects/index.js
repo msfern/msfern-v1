@@ -11,7 +11,7 @@ class Projects extends React.Component {
         description: 'An Emoji search application made with the goal to practice React and API calls.',
         techs: ['React', 'Axios', 'SCSS'],
         github: 'https://github.com/msfern/emojo',
-        live: 'https://5e346ce8eda9b15bf6a2f0db--emojo.netlify.com/'
+        live: 'https://emojo.netlify.com/'
       },
       // crustylab: {
       //   name: 'CrustyLab',
