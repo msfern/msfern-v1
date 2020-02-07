@@ -25,7 +25,7 @@ class Projects extends React.Component {
 
     return (
       <main>
-        <p className='projects-desc'>Here you can check some of the stuff I have built so far.</p>
+        <p className='projects-desc'>Here you can check some of the stuff I have built so far. Still in progress! :)</p>
         <section className='project-list'>
         { Object.keys(projects).map((project) => (
           <Project key={project} details={projects[project]} />
