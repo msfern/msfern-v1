@@ -91,7 +91,7 @@ const HomeContent = () => (
                     <p className="university__name">Monash University</p>
                     <p className="university__time">July 2014 - June 2015</p>
                 </div>
-                <p className="university__major">Bachelor of Computer Science (Schorlarship) <span className="university__location">@ Melbourne, VIC, Australia</span></p>
+                <p className="university__major">Bachelor of Computer Science (Scholarship) <span className="university__location">@ Melbourne, VIC, Australia</span></p>
             </div>
         </div>
     </section>
