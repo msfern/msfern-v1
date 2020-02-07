@@ -37,7 +37,7 @@ const HomeContent = () => (
                 <p className="job__position">Front End Developer <span className="job__location">@ Fortaleza, CE, Brazil</span></p>
             </div>
         </div>
-        {/* <a>View my Resume</a> */}
+        <a href='./Stephanie_Fernandes_CV.pdf' target='_blank' className='resume'>View my Resume</a>
     </section>
     <section className="section skills">
         <h2 className="section__title">Skills</h2>
