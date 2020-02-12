@@ -5,14 +5,6 @@ import './style.css';
 class Projects extends React.Component {
   render() {
     const projects = {
-      emojo: {
-        name: 'Emojo',
-        image: './emojo.png',
-        description: 'An Emoji search application made with the goal to practice React and API calls.',
-        techs: ['React', 'Axios', 'SCSS'],
-        github: 'https://github.com/msfern/emojo',
-        live: 'https://emojo.netlify.com/'
-      },
       office365: {
         name: 'Office365 Email',
         image: './office365.png',
@@ -20,6 +12,14 @@ class Projects extends React.Component {
         techs: ['React', 'Axios'],
         github: 'https://github.com/msfern/encontact-challenge',
         live: ''
+      },
+      emojo: {
+        name: 'Emojo',
+        image: './emojo.png',
+        description: 'An Emoji search application made with the goal to practice React and API calls.',
+        techs: ['React', 'Axios', 'SCSS'],
+        github: 'https://github.com/msfern/emojo',
+        live: 'https://emojo.netlify.com/'
       },
       // office365: {
       //   name: 'Office365 Email',
