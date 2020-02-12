@@ -13,9 +13,17 @@ class Projects extends React.Component {
         github: 'https://github.com/msfern/emojo',
         live: 'https://emojo.netlify.com/'
       },
-      // crustylab: {
-      //   name: 'CrustyLab',
-      //   image: './img.png',
+      office365: {
+        name: 'Office365 Email',
+        image: './office365.png',
+        description: `A component based on Office365's email application.`,
+        techs: ['React', 'Axios'],
+        github: 'https://github.com/msfern/encontact-challenge',
+        live: ''
+      },
+      // office365: {
+      //   name: 'Office365 Email',
+      //   image: './office365.png',
       //   description: 'A pizza creating application, where the user can manage ingredients, recipes and stock.',
       //   techs: ['React', 'Axios', 'Express', 'Firebase', 'SCSS'],
       //   github: '',
