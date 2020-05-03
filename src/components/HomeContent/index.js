@@ -64,14 +64,16 @@ const HomeContent = () => (
                     <li className="skill">Git & Github</li>
                     <li className="skill">Chrome Devtools</li>
                     <li className="skill">Figma</li>
+                    <li className="skill">Photoshop</li>
                 </ul>
             </div>
             <div className="skills__category">
                 <p className="skill__label">Design</p>
                 <ul className="skill__list">
-                    <li className="skill">Photoshop</li>
                     <li className="skill">Sketching</li>
                     <li className="skill">Wireframing</li>
+                    <li className="skill">Responsive Web Design</li>
+                    <li className="skill">UI Design</li>
                 </ul>
             </div>
         </div>
