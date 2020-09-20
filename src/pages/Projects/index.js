@@ -44,7 +44,7 @@ function Projects() {
       description: "A component based on Office365's email application.",
       techs: ['React', 'Axios'],
       github: 'https://github.com/msfern/encontact-challenge',
-      live: 'https://msfern.github.io/encontact-challenge/',
+      live: 'https://office365clone.netlify.app/',
     },
     emojo: {
       name: 'Emojo',
