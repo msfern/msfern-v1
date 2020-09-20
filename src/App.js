@@ -1,28 +1,27 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/index';
-import HomeContent from './components/HomeContent/index';
-import Projects from './components/Projects/index';
+import Home from './pages/Home/index';
+import Projects from './pages/Projects/index';
 import Footer from './components/Footer/index';
-import NotFound from './components/NotFound/index';
-import './App.css';
+import NotFound from './pages/NotFound/index';
+import './global.scss';
 
-class App extends React.Component {
-  
-  render() {
-    return (
-      <div className="App">
+function App() {
+  return (
+    <>
+      <BrowserRouter>
         <Header />
-        <Switch>
-          <Route exact path='/' component={HomeContent} />
-          <Route exact path='/projects' component={Projects} />
-          <Route component={NotFound} />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/projects' element={<Projects />} />
+          <Route element={<NotFound />} />
           {/* https://tylermcginnis.com/react-router-pass-props-to-components/ */}
-        </Switch>
-        <Footer />
-      </div>
-    );
-  }
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

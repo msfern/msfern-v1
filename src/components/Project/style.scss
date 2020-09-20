@@ -5,20 +5,20 @@
   box-shadow: -1px 4px 8px 0px rgba(0,0,0,0.25);
   transition: transform .2s linear;
   transform: translateY(0);
-}
 
-.project:hover {
-  transform: translateY(-5px);
-}
+  &:hover {
+    transform: translateY(-5px);
+  }
 
-.project-container {
-  padding: 12px;
-  background-color: #EFEFEF;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  &-container {
+    padding: 12px;
+    background-color: #EFEFEF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
 }
 
 .project-name-links {
