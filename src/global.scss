@@ -95,6 +95,14 @@ ul {
   margin: 0;
 }
 
+a {
+  position: relative;
+  color: var(--blue);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
 ::selection {
   background-color: var(--yellow);
 }

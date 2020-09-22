@@ -9,7 +9,9 @@ function Home() {
           <img src='./photo.png' alt='Stephanie Fernandes' />
         </div>
         <div className='intro-description'>
-          <h2>Hey there!</h2>
+          <h2>
+            Hey there! <img src='./wave.png' alt='Hand Wave Emoji' />{' '}
+          </h2>
           <p>
             I'm Stephanie, a design-minded <strong>front end developer</strong>{' '}
             💻 always looking forward to learn from other developers and to
@@ -155,28 +157,74 @@ function Home() {
         </div>
       </section>
       <section className='section extra'>
-        <h2 className='section__title'>Some extra tidbits</h2>
+        <h2 className='section__title'>Some Extra Tidbits</h2>
         <ul className='tidbits'>
           <li className='tidbit'>
-            Back in 2014 I was granted a scholarship by the Brazilian government
-            to study full-time at Monash University in{' '}
-            <strong>Melbourne, Australia</strong>.{' '}
+            I co-authored the paper{' '}
+            <a
+              href='https://ieeexplore.ieee.org/document/8114447'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              "Interactive Musical Game with a Gesture-Controlled Virtual
+              Puppet"
+            </a>
+            , which was published at SVR 2017 and won{' '}
+            <strong>second place</strong> in the Application category.
+            <span role='img' aria-label='Trophy Emoji'>
+              🏆
+            </span>
+          </li>
+          <li className='tidbit'>
+            Back in 2014, I was granted a scholarship by the Brazilian
+            government to study full-time at Monash University in{' '}
+            <strong>Melbourne, Australia</strong>, where I studied Game
+            Development.{' '}
             <span role='img' aria-label='Kangaroo Emoji'>
               🦘
             </span>
           </li>
           <li className='tidbit'>
+            At Monash University, I was a{' '}
+            <a
+              href='https://www.monash.edu/it/future-students/meet-our-students/stephanie-fernandes'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              volunteer assistant
+            </a>{' '}
+            at the SensiLab research lab, where I was responsible for the
+            research and 3D modelling of the Banteay Srei temple for an{' '}
+            <a
+              href='https://sensilab.monash.edu/research/virtual-angkor/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              educational game based on Angkor Wat
+            </a>
+            .
+            <span role='img' aria-label='Graduation Cap Emoji'>
+              🎓
+            </span>
+          </li>
+          <li className='tidbit'>
+            I've done the <strong>Camino de Santiago</strong> in 6 days in 2019.
+            <span role='img' aria-label='Sweat Emoji'>
+              💦
+            </span>
+          </li>
+          <li className='tidbit'>
             I've voluntered at Hostel One in <strong>Porto</strong> for 40 days
-            on July/August 2019, making friends with people from{' '}
+            during July/August 2019, making friends with people from{' '}
             <em>all over</em> the world and improving my communication skills!{' '}
             <span role='img' aria-label='World Map Emoji'>
               🗺️
             </span>
           </li>
           <li className='tidbit'>
-            I studied at Sogang University in{' '}
-            <strong>Seoul (South Korea)</strong> for 3 months in 2019, where I
-            learned and studied the Korean language as a full-time student :){' '}
+            I went to Sogang University in <strong>Seoul, South Korea,</strong>{' '}
+            for 3 months in 2019, where I learned and studied the Korean
+            language as a full-time student :){' '}
             <span role='img' aria-label='South Korea Flag Emoji'>
               🇰🇷
             </span>

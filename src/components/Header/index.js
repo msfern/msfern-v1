@@ -43,7 +43,7 @@ function Header() {
         <ul className='social-links'>
           <li>
             <a
-              href='mailto:m.stephanie.fernandes@gmail.com'
+              href='mailto:msfern.dev@gmail.com'
               rel='noopener noreferrer'
               className='social'
             >
