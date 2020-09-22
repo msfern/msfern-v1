@@ -4,8 +4,17 @@ import './style.scss';
 
 function Projects() {
   const projects = {
+    personalWebsite: {
+      name: 'Personal Website',
+      image: './personal.png',
+      description:
+        'My own personal website to make myself visible to the world.',
+      techs: ['React', 'SCSS', 'React Router'],
+      github: 'https://github.com/msfern/msfern',
+      live: 'https://msfern.dev',
+    },
     evoxNews: {
-      name: 'News Portal',
+      name: 'Evox News',
       image: './news.png',
       description: 'A News portal application.',
       techs: ['React', 'Fetch API', 'SCSS'],

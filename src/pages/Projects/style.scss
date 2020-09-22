@@ -1,3 +1,7 @@
+main {
+  margin-bottom: 2rem;
+}
+
 .projects-desc {
   margin: 3rem 0;
 }
@@ -6,6 +10,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
   position: relative;
-  gap: 20px;
+  gap: 25px;
   /* The grid- prefix will be removed and grid-gap renamed to gap. The unprefixed property is already supported in Chrome 68+, Safari 11.2 Release 50+ and Opera 54+.*/
 }
