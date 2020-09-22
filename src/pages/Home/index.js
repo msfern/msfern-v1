@@ -60,7 +60,7 @@ function Home() {
           </div>
         </div>
         <a
-          href='./Stephanie_Fernandes-CV_en.pdf'
+          href='./resume/Stephanie_Fernandes-CV_en.pdf'
           target='_blank'
           className='resume'
         >
