@@ -26,6 +26,18 @@ function Home() {
         <div className='jobs'>
           <div className='job'>
             <div className='job__company-time'>
+              <p className='job__company'>Enext</p>
+              <p className='job__time'>October 2020 - Present</p>
+            </div>
+            <p className='job__position'>
+              Front End Developer
+              <span className='job__location'>
+                @ São Paulo, SP, Brazil (Remote)
+              </span>
+            </p>
+          </div>
+          <div className='job'>
+            <div className='job__company-time'>
               <p className='job__company'>KTBYTE</p>
               <p className='job__time'>January 2018 - April 2019</p>
             </div>
@@ -84,6 +96,7 @@ function Home() {
             <ul className='skill__list'>
               <li className='skill'>React</li>
               <li className='skill'>JQuery</li>
+              <li className='skill'>Styled Components</li>
             </ul>
           </div>
           <div className='skills__category'>
