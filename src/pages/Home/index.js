@@ -26,8 +26,32 @@ function Home() {
         <div className='jobs'>
           <div className='job'>
             <div className='job__company-time'>
+              <p className='job__company'>ACCT</p>
+              <p className='job__time'>August 2021 - Present</p>
+            </div>
+            <p className='job__position'>
+              Front End Developer
+              <span className='job__location'>
+                @ Atibaia, SP, Brazil (Remote)
+              </span>
+            </p>
+          </div>
+          <div className='job'>
+            <div className='job__company-time'>
+              <p className='job__company'>Sambatech</p>
+              <p className='job__time'>February 2021 - August 2021</p>
+            </div>
+            <p className='job__position'>
+              Front End Developer
+              <span className='job__location'>
+                @ Belo Horizonte, MG, Brazil (Remote)
+              </span>
+            </p>
+          </div>
+          <div className='job'>
+            <div className='job__company-time'>
               <p className='job__company'>Enext</p>
-              <p className='job__time'>October 2020 - Present</p>
+              <p className='job__time'>October 2020 - February 2021</p>
             </div>
             <p className='job__position'>
               Front End Developer
