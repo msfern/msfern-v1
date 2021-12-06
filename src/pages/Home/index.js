@@ -111,6 +111,7 @@ function Home() {
             <ul className='skill__list'>
               <li className='skill'>HTML</li>
               <li className='skill'>Javascript ES6+</li>
+              <li className='skill'>Typescript</li>
               <li className='skill'>(S)CSS</li>
               <li className='skill'>Less</li>
             </ul>
@@ -127,7 +128,8 @@ function Home() {
             <p className='skill__label'>Tools</p>
             <ul className='skill__list'>
               <li className='skill'>Git & Github</li>
-              <li className='skill'>Chrome Devtools</li>
+              <li className='skill'>Webpack</li>
+              <li className='skill'>Netlify</li>
               <li className='skill'>Figma</li>
               <li className='skill'>Photoshop</li>
             </ul>
